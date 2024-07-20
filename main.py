@@ -1,20 +1,3 @@
-# import pandas as pd 
-# import numpy as np
-# from scipy import misc
-# from PIL import Image
-# from matplotlib import pyplot as plt
-# from numpy.random import random
-
-# grey_vals = np.array([0.2126, 0.7152, 0.0722])
-# file_name="yummy_macarons.jpg"
-# my_img=Image.open(file_name)
-# # sRGB_array=my_img/225
-# my_img_gray = my_img @ grey_vals
-# plt.imshow(np.flip(my_img_gray), cmap='gray')
-# # plt.imshow(np.rot90(my_img_gray))
-# plt.show()
-
-# app.py
 import os
 from flask import Flask, request, render_template
 from werkzeug.utils import secure_filename
